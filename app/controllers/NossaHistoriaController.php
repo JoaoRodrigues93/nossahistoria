@@ -13,6 +13,6 @@ class NossaHistoriaController extends BaseController {
     }
 
     public function doPergunta (){
-        return "GITHUB FUNCIONA MESMO SEM INSTALAR A APLICAÇÃO DO NGOMANA ahhahahhahahah";
+        return "Don't kill my vibe";
     }
 }
