@@ -14,6 +14,6 @@ class NossaHistoriaController extends BaseController {
 
     public function doPergunta (){
         return "GITHUB FUNCIONA MESMO SEM INSTALAR A APLICAÇÃO";
-        //mesmo
+        //mesmo porra
     }
 }
