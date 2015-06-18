@@ -11,7 +11,7 @@ class LoginController extends  BaseController {
     public function entrar (){
         $credentials = Input::only('username','password');
         if(Auth::attempt($credentials)){
-            return Redirect::intended('/registo');
+            return Redirect::to('/nossahistoria');
         }
 
         return Redirect::to('/');

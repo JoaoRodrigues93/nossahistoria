@@ -34,7 +34,7 @@
 @yield('body')
 @section('footer')
 <p style="text-align:center ">&copy;Nossa História {{date('Y')}}</p>
-<p style="text-align:center ">&copy;Todos direitos reservados!</p>
+<p style="text-align:center ">Todos direitos reservados!</p>
 @show
 </body>
 </html>

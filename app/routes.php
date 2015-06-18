@@ -19,3 +19,5 @@ Route::get('/', function()
 Route::get('/registo','RegistoController@showRegisto');
 Route::post('/registo','RegistoController@registar');
 Route::post('/','LoginController@entrar');
+Route::get('/nossahistoria','NossaHistoriaController@showJogo');
+Route::post('/nossahistoria','NossaHistoriaController@doPergunta');
