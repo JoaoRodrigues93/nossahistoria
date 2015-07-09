@@ -13,7 +13,13 @@ class NossaHistoriaController extends BaseController {
     }
 
     public function doPergunta (){
-        return "GITHUB FUNCIONA MESMO SEM INSTALAR A APLICAÇÃO DO NGOMANA E SEVERINO";
-        //Severino Modificou aqui.
+        $respostaCerta = Input::get('respostaCerta');
+        $respostaEscolhida = Input::get('respostaEscolhida');
+
+        if($respostaEscolhida==$respostaCerta)
+        return "Parabens: Acertaste a pergunta.";
+        else
+            return "Infelizmente a resposta está errada. A resposta certa é: $respostaCerta";
+
     }
 }
