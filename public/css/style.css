@@ -1,4 +1,6 @@
 
-.resposta:enabled{
-    color:red;
+.resposta{
+    border:2px;
+    border-color:green;
+    background-color:greenyellow;
 }
